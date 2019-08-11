@@ -10,8 +10,6 @@
     <Content Include="Templates\Dungeon_Template.json" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Maze, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\engine\Maze\bin\Debug\netstandard2.0\Maze.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Maze.Engine" Version="0.1.4" />
   </ItemGroup>
 </Project>
